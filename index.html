@@ -2,57 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Khubaib | Data Analyst</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khubaib Ishtiaq | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+<body>
 
-<body style="margin:0; font-family: Arial, sans-serif;">
-
-<!-- HERO -->
-<section style="padding:60px; text-align:center; background:#0f172a; color:white;">
+<!-- HERO SECTION -->
+<header class="hero">
   <h1>Khubaib Ishtiaq</h1>
-  <p>Data Analyst | Power BI | Python</p>
-</section>
+  <p>Data Analyst | Power BI | Python | SQL</p>
+  <a href="#projects" class="btn">View Projects</a>
+</header>
 
-<!-- ABOUT -->
-<section style="padding:40px;">
+<!-- ABOUT ME -->
+<section id="about">
   <h2>About Me</h2>
   <p>
-    I am a Data Analyst with 3+ years of experience transforming raw data into actionable insights.
-    Skilled in Power BI, Python, and SQL.
+    Self-taught Data Analyst with 3+ years of experience transforming raw data into actionable insights.
+    Skilled in Power BI, Python, SQL, and data visualization to support decision-making.
   </p>
 </section>
 
 <!-- PROJECTS -->
-<section style="padding:40px; background:#f1f5f9;">
-  <h2>Projects</h2>
-  <ul>
-    <li>Healthcare Resource Optimization Dashboard</li>
-    <li>Cattle Detection using YOLO</li>
-    <li>Supermarket Sales Data Analysis</li>
-  </ul>
+<section id="projects">
+  <h2>Projects & Portfolio</h2>
+
+  <!-- Figma Portfolio -->
+  <div class="project">
+    <h3>Portfolio Design (Figma)</h3>
+    <a href="https://www.figma.com/design/7JbRuzCQlvkPKbpP8lIvho/Portfolio-Design--Community-" target="_blank">
+      View Full Design
+    </a>
+    <iframe 
+      src="https://embed.figma.com/design/7JbRuzCQlvkPKbpP8lIvho/Portfolio-Design--Community-?embed-host=share" 
+      allowfullscreen
+      style="width:100%; height:500px; border:none; margin-top:10px;">
+    </iframe>
+  </div>
+
+  <!-- Power BI Dashboard -->
+  <div class="project">
+    <h3>Healthcare Resource Optimization Dashboard</h3>
+    <p>Predictive analytics for hospital resource optimization.</p>
+    <a href="#">View Dashboard</a>
+  </div>
+
+  <!-- Cattle Detection Project -->
+  <div class="project">
+    <h3>Cattle Detection Project</h3>
+    <p>YOLO & Mask R-CNN based detection with Django interface.</p>
+    <a href="#">View Project</a>
+  </div>
 </section>
 
-<!-- FIGMA DESIGN -->
-<section style="padding:40px;">
-  <h2>My Portfolio Design</h2>
-
-  <a href="https://www.figma.com/design/7JbRuzCQlvkPKbpP8lIvho/Portfolio-Design--Community-" target="_blank">
-    🔗 View Full Design on Figma
-  </a>
-
-  <iframe 
-    style="border:none; width:100%; height:500px; margin-top:20px;" 
-    src="https://embed.figma.com/design/7JbRuzCQlvkPKbpP8lIvho/Portfolio-Design--Community-?embed-host=share">
-  </iframe>
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-list">
+    <span>Power BI</span>
+    <span>Python</span>
+    <span>SQL / MySQL</span>
+    <span>Pandas / NumPy</span>
+    <span>Data Visualization</span>
+  </div>
 </section>
 
 <!-- CONTACT -->
-<section style="padding:40px; background:#0f172a; color:white; text-align:center;">
+<section id="contact">
   <h2>Contact</h2>
-  <p>Email: your@email.com</p>
-  <p>LinkedIn: your link</p>
+  <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/khubaibishtiaq/" target="_blank">View Profile</a></p>
 </section>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; 2026 Khubaib Ishtiaq. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
